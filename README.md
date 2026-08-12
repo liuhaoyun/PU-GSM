@@ -15,6 +15,8 @@ For compiling TF operators, please check `tf_xxx_compile.sh` under each op subfo
 When running the code, if you have `undefined symbol: _ZTIN10tensorflow8OpKernelE` error, you need to compile the TF operators. If you have already added the `-I$TF_INC/external/nsync/public -L$TF_LIB -ltensorflow_framework` but still have ` cannot find -ltensorflow_framework` error. Please use 'locate tensorflow_framework
 ' to locate the tensorflow_framework library and make sure this path is in `$TF_LIB`.
 
+We provided the trained [model](https://drive.google.com/file/d/1TKZRPPHbRpeMjH3GW82Du_1SLfWM85Yp/view?usp=drive_link)
+
 ### Usage
   
 1. Compile the TF operators
